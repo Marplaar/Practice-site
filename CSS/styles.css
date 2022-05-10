@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif; 
+    color: #11999E;
+}
+
+p{
+    color: #40514E;
+}
+
+.sexy-dots{
+    border-style: dotted none none;
+    width: 10%;
+    border-width: 10px;
+    color: #EAF6F6;
+    margin: 50px auto;
+    clear: right;
+    }
+
+.skill-row-gaming{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row-pizza{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    clear: left;
+}
+
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+    color: #66BFBF;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 25%;
+    top: 50px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 25%;
+    bottom: 300px
+}
+
+.middle-container{
+
+}
+
+.footer-container{
+    padding: 40px;
+    background-color: #66BFBF;
+}
+
+.footer-link{
+    margin: 30px 20px;
+    color: #11999E;
+    font-weight: bold;
+}
+
+.greeting{
+    margin: 20px auto
+}
+
+.controller-img{
+    width: 25%;
+    float: left;
+    padding: 0 30 0 0;
+}
+
+.pizza-img{
+    width: 25%;
+    float: right;
+    padding: 0 0 0 30;
+}
+
+.button {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 12px;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 150px;
+}
+      
+.button:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+
+}
+
+.copyright{
+    color: #EAF6F6;
+    margin: 0 auto 0 auto;
+    padding: 40px 0 0 0;
+}
+
+#skill-header{
+    margin-top: 0;
+}
+
+#bio-paragraph{
+    margin-bottom: 0;
+}
+
+#potato_photo{
+    border-radius: 50%;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+
+

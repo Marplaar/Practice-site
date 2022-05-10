@@ -1,84 +1,61 @@
 <!DOCTYPE html>
+
+<!--/*****https://colorhunt.co/palette/f67280c06c846c5b7b355c7d*****/-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyle's Personal Website</title>
+    <title>Kyle Munroe</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <a href="index.html">home</a>
-    <table>
-        <tr>
-            <td><img src="images\istockphoto-157430678-612x612.jpg" alt=""></td>
-            <td><h1>Kyle Munroe</h1>
-                <p><em>A humble learner of code</em></p>
-                <br>
-                <p>My name is Kyle. I am a beginner at <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a> and I hope that I succeed in learning a fair bit of this <strong>SHTUFF</strong>. 
-                    <br> with me luck and keep me in your thoughts and prayers so that I am successful in my endeavors. Plz & Tnx.</p></td>
-        </tr>
-    </table>
-    
-    <hr size="3">
-    <h3>Education Backgroun</h3>
-    <ul>
-        <li><span class="school1"></span><a href="https://www.penzance.co.za/">Penzance Primary School</a> </li>
-        <li><span class="school2"></span>Glenwood High School</li>
-        <li><span class="School3"></span>UNISA</li>
-    </ul>
-    <h3>Work Experience</h3>
-    <Table cellspacing="10">
-        <thead>
-            <th>Dates</th>
-            <th>Description</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2011-2016</td>
-                <td>Grant Clinton & Associates</td>
-            </tr>
-            <tr>
-                <td>2016-2018</td>
-                <td>Hulett Development Company</td>
-            </tr>
-        </tbody>
-        <tfoot></tfoot>
-    </Table>
-    <h3>Skills</h3>
-    <hr size="3">
-    <table>
-        <tbody>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>Gaming</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Gyming</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>Cycling</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Web Development</td>
-                        <td>⭐</td>
-                    </tr>
-                </table>
-            </td>
-        </tbody>
-    </table>
-    
-    <hr size="3">
 
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact.html">Contact Me</a>
+    <div class="top-container">
+        <img class="top-cloud" src="Images/cloud.png" alt="cloud-img">
+        <h1>I'm Kyle</h1>
+        <h2>a <u>pro</u>grammer.</h2>
+        <img class="bottom-cloud" src="Images/cloud.png" alt="cloud-img">
+        <img class="mountain" src="Images/mountain.png" alt="mountain-img">
+    </div>
+
+    <div class="middle-container">
+        <img src="Images/potato.jpg" alt="potato-img" id="potato_photo" class="personal photo">
+        <h2 class="greeting">Hello.</h2>
+        <p id="bio-paragraph">I am a budding web developer and I'm practicing to not be a potato. Wish me luck.</p>
+    </div>
+
+    <hr class="sexy-dots">
+
+    <div class="skills-container">
+        <h2 id="skill-header">My Skills</h2>
+        <div class="skill-row-gaming">
+            <img src="Images/controller.gif" alt="controller-gif" class="controller-img">
+            <h3>Gaming</h3>
+            <p>I suck at gaming, but I'm better at it then you! Which totally counts as a skill. </p>
+        </div>
+        <div class="skill-row-pizza">
+            <img src="Images/pizza.gif" alt="pizza-gif" class="pizza-img">
+            <h3>Pizza Making</h3>
+            <p class="skill-description-pizza">I can make a mean pizza using a terrible oven that only goes to 220°C... <br>Currently accepting donations for a pizza oven.</p>
+        </div>
+    </div>
+    <hr class="sexy-dots">
+    <div class="contact-container">
+        <h2>Get In Touch</h2>
+        <h3>If you love making pizza as much as I do.</h3>
+        <p>Love making pizza as much as I do? <br> Get in touch and we can code while we eat pizza!</p>
+        <a class="button" href="mailto:munroe93@hotmail.com">CONTACT ME</a>
+    </div>
+    <div class="footer-container">
+        <a class="footer-link" href="https://www.instagram.com/kmunroe93/">Instagram</a>
+        <a class="footer-link" href="https://www.facebook.com/kyle.munroe.31/">Facebook</a>
+        <p class="copyright">Ⓒ 2022 Kyle Munroe</p>
+    </div>
 
 </body>
 </html>
